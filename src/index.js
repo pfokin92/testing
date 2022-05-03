@@ -1,0 +1,10 @@
+import './css/style.css';
+import './js/app';
+import './images/americanexpress.gif';
+import './images/dinersclubinternational.gif';
+import './images/discovercard.gif';
+import './images/jcb.gif';
+import './images/mastercard.gif';
+import './images/mir.gif';
+import './images/visa.gif';
+import './images/visaelectron.gif';
