@@ -41,10 +41,9 @@ export default class Logic {
     e.preventDefault();
     const cardNumber = this.gui.getCardNumber();
     const result = checkPaySystem(PaySystems.list, cardNumber);
-    if(result) {
+    if (result) {
       this.gui.showPaySystem(result);
     }
-
   }
 
   fetchPaySystems() {

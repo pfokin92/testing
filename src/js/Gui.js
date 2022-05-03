@@ -30,6 +30,7 @@ export default class Gui {
     this.message.innerHTML = `${message}`;
   }
 
+  // eslint-disable-next-line class-methods-use-this
   showPaySystem(name) {
     const fileName = `${name.toLowerCase().replaceAll(' ', '')}`;
     const img = document.getElementById(fileName);
@@ -38,7 +39,7 @@ export default class Gui {
 
   clear() {
     this.message.innerHTML = '';
-    this.message.className = 'message'; 
+    this.message.className = 'message';
     [...this.paySystem.children].forEach((el, ind) => {
       this.paySystem.children[ind].classList.add('opacity_img');
     });
