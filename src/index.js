@@ -8,3 +8,4 @@ import './images/mastercard.gif';
 import './images/mir.gif';
 import './images/visa.gif';
 import './images/visaelectron.gif';
+import './license.txt';
